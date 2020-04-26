@@ -1,2 +1,5 @@
 snippet clg "Console.log
 	console.log(${1})
+
+snippet epic "Create a redux-observable epic"
+	const ${1:epicName } = action$ => action$.pipe(ofType(${2:actionTypes}))

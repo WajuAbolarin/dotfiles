@@ -6,6 +6,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:/home/waju/nvim/bin
+export MPN_YEK=28595ce2-f5be-4889-80e9-cb1461d0e82f
+export PATH=$PATH:$HOME/.local/share/webstorm-2020-eap/bin
 # Path to your oh-my-zsh installation.
 export ZSH="/home/waju/.oh-my-zsh"
 ws(){
@@ -20,7 +22,7 @@ ws(){
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -109,3 +111,12 @@ source $ZSH/oh-my-zsh.sh
  alias zshconfig="vim ~/.zshrc"
  alias ohmyzsh="vim ~/.oh-my-zsh"
  alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+ alias vim=nvim
+ alias install-peers="cat package.json | jq '.peerDependencies | keys[]' | xargs  yarn add" 
+ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/waju/.sdkman"
+[[ -s "/home/waju/.sdkman/bin/sdkman-init.sh" ]] && source "/home/waju/.sdkman/bin/sdkman-init.sh"
