@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/waju/osmeridian/student'
+let g:netrw_dirhist_8='/home/waju/osmeridian/student/src/views/errors'
+let g:netrw_dirhist_7='/home/waju/osmeridian/student/src/views'
+let g:netrw_dirhist_6='/home/waju/osmeridian/student/src'
+let g:netrw_dirhist_5='/home/waju/osmeridian/student'
+let g:netrw_dirhist_4='/home/waju/osmeridian/admin'
+let g:netrw_dirhist_3='/home/waju/osmeridian/admin/src/views'
+let g:netrw_dirhist_2='/home/waju/osmeridian/admin/src'
+let g:netrw_dirhist_1='/home/waju/osmeridian/admin'
+let g:netrw_dirhist_0='/home/waju/osmeridian/admin/public'

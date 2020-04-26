@@ -1,0 +1,12 @@
+{
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave":true,
+  "coc.preferences.formatOnType": true,
+  "prettier.printWidth":80,
+  "prettier.eslintIntegration": true,
+  "coc.preferences.formatOnSaveFiletypes":["scss", "vue", "javascript","javascriptreact", "typescript"],
+  "snippets.extends": {
+    "javascriptreact":["javascript"],
+    "javascript": ["vue"]
+  }
+}
