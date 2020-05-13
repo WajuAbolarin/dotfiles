@@ -36,8 +36,9 @@ set linespace=15 			 			"Gvim specific
     set termguicolors
   endif
 
-set background=light
-colorscheme OceanicNext
+set background=dark
+syntax enable
+colorscheme night-owl
 
 set guioptions-=l
 set guioptions-=L

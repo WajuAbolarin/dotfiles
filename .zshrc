@@ -5,6 +5,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$(yarn global bin)
 export PATH=$PATH:/home/waju/nvim/bin
 export MPN_YEK=28595ce2-f5be-4889-80e9-cb1461d0e82f
 export PATH=$PATH:$HOME/.local/share/webstorm-2020-eap/bin
